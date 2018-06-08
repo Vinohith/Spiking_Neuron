@@ -1,3 +1,6 @@
+#author = Vinohith
+#Spiking Neuron
+
 import matplotlib.pyplot as plt
 
 
