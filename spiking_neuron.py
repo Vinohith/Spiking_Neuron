@@ -62,7 +62,9 @@ def neuron(v, u, a, b, c, d, simulation_time_step, input_current):
 		
 	return V, U, spike_time
 
-	
+
+Y1, Y2, X = neuron(model.v, model.u, model.a, model.b, model.c, model.d, model.simulation_time_step, model.input_current)
+
 	
 plt.xlabel("Time")
 plt.ylabel("Membrane potential")
