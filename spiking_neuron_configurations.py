@@ -11,6 +11,7 @@ v_threshold = 30
 
 #describing the spiking neuron model
 class neuron_model:
+	
     def __init__(self, spike_type):
         self.spike_type = spike_type
         self.a = spike_type['a']
@@ -33,39 +34,49 @@ spike_type = {'regular_spiking' : {'a':0.02, 'b':0.2, 'c':-65, 'd':8, 'v':-65},
  
 #defining the functioning of the spiking neuron
 def neuron(v, u, a, b, c, d):
+	
     V = []
     T = []
     U = []
     T1 = 10
+	
     for t in range(0,300):
-        #print('hello')
+    
         if (t>T1):
             I = 15
         else:
             I = 0
+	
         v += (0.04*v**2 + 5*v + 140 - u + I)
         u += a*(b*v - u)
+	
         if v>v_threshold:
             V.append(v_threshold)
             v = c
             u = u+d
         else:
             V.append(v)
+	
         U.append(u)
         T.append(t)
+	
     return V, T
 
 
 
 #plotting the various kinds of spikes	
 for i in spike_type: 
+	
     model = neuron_model(spike_type[i])
+
     Y, X = neuron(model.v, model.u, model.a, model.b, model.c, model.d)
+	
     plt.xlabel('Time')
     plt.ylabel('Membrane Potential')
     plt.title(i)
     plt.plot(X, Y)
     plt.show()
+
     print('Parameters of the Neuron for {0} : '.format(i))
     print(' a : {0} \n b : {1} \n c : {2} \n d : {3}'.format(model.a, model.b, model.c, model.d))
     print('#############################################################################################################################')
