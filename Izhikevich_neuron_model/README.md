@@ -1,5 +1,5 @@
 # Spiking_Neuron
-Work related to Spiking Neural Networks.<br><br>
+<br><br>
 
 The neural networks based on their computational unit can be distinguished into three generations:
 1. **First Generation**: This generation of neural networks included the perceptron, hopfield networks, boltzmann machines etc.<br>
