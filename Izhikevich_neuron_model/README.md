@@ -13,8 +13,9 @@ These parameters are:
 4. **d**: This variable represents the after spike reset value of the recovery variable u.
 
 The equations governing the Izhikevich neuron model:<br>
-<img src='/Izhikevich_neuron_model/Izhikevich_equation.png'/><br>
-
+<p align="center">
+<img width='500' height='250' src='/Izhikevich_neuron_model/Izhikevich_equation.png'/><br>
+</p>
 
 The choice of values for these parameters leads to different types of spiking, namely:
 1. **Regular Spiking (RS)**
