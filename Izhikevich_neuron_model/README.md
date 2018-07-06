@@ -31,6 +31,7 @@ The choice of values for these parameters leads to different types of spiking, n
 ### Generated Graphs<br>
 1. **Regular Spiking** 
 <img width='500' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/><br>
+
 2. **Intrinsically Bursting**
 <img width='500' height='300' src='/Izhikevich_neuron_model/Graphs/intrinsically_bursting.png'/> 
 
