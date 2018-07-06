@@ -30,7 +30,7 @@ The choice of values for these parameters leads to different types of spiking, n
 
 ### Generated Graphs<br>
 1. **Regular Spiking** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. **Intrinsically Bursting**
-<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/intrinsically_bursting.png'/>
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/>  
 
 ### Reference:<br>
 [Simple Model of Spiking Neurons](http://www.izhikevich.org/publications/spikes.pdf)
