@@ -1,10 +1,5 @@
-# Spiking_Neuron
+# Izhikevich_neuron_model
 <br><br>
-
-The neural networks based on their computational unit can be distinguished into three generations:
-1. **First Generation**: This generation of neural networks included the perceptron, hopfield networks, boltzmann machines etc.<br>
-2. **Second Generation**: This generation of neural networks included multi-layer neural nets, recurrent networks etc.<br>
-3. **Third Generation**: This generation of neural networks includes the Spiking neural networks which is a more realistic representation of the working and information flow within the brain.<br><br>
 
 The cortical neurons in the brain produces spiking and busting behaviour. Spiking Neurons are motivated by this behaviour of cortical neurons. The model presented tries to combine the biological plausibility of the Hodgkin-Huxley type dynamics and computational efficiency of the integrate and fire neurons. To produce this kind of behaviour four parameters and two variables are used.<br>
 These variables are:
@@ -17,6 +12,10 @@ These parameters are:
 3. **c**: This variable represents the after spike reset value of the membrane potential v.
 4. **d**: This variable represents the after spike reset value of the recovery variable u.
 
+The equations governing the Izhikevich neuron model:<br>
+<img src='/Izhikevich_neuron_model/Izhikevich_equation.png'/><br>
+
+
 The choice of values for these parameters leads to different types of spiking, namely:
 1. **Regular Spiking (RS)**
 2. **Intrinsically Bursting (IB)**
@@ -25,3 +24,8 @@ The choice of values for these parameters leads to different types of spiking, n
 5. **Low-threshold Spiking (LTS)**
 6. **Thalamo-cortical (TC)**
 7. **Resonator (RZ)**
+
+<br>
+
+## Reference:<br>
+[Simple Model of Spiking Neurons](http://www.izhikevich.org/publications/spikes.pdf)
