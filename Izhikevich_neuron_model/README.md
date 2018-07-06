@@ -29,8 +29,18 @@ The choice of values for these parameters leads to different types of spiking, n
 <br>
 
 ### Generated Graphs<br>
-1. **Regular Spiking** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. **Intrinsically Bursting**
-<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/>  
+1. **Regular Spiking** 
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/>
+2. **Intrinsically Bursting**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/intrinsically_bursting.png'/> 
+3. **Chattering**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/chattering.png'/>
+4. **Fast Spiking**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/fast_spiking.png'/>
+5. **Low*threshold Spiking**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/low_threshold_spiking.png'/>
+6. **Resonator**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/resonator.png'/>
 
 ### Reference:<br>
 [Simple Model of Spiking Neurons](http://www.izhikevich.org/publications/spikes.pdf)
