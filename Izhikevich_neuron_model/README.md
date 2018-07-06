@@ -14,7 +14,7 @@ These parameters are:
 
 The equations governing the Izhikevich neuron model:<br>
 <p align="center">
-<img width='500' height='250' src='/Izhikevich_neuron_model/Izhikevich_equation.png'/><br>
+  <img width='500' height='250' src='/Izhikevich_neuron_model/Izhikevich_equation.png'/><br>
 </p>
 
 The choice of values for these parameters leads to different types of spiking, namely:
