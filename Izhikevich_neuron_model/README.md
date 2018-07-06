@@ -1,4 +1,4 @@
-# Izhikevich_neuron_model
+# Izhikevich Neuron Model
 <br>
 
 The cortical neurons in the brain produces spiking and busting behaviour. Spiking Neurons are motivated by this behaviour of cortical neurons. The model presented tries to combine the biological plausibility of the Hodgkin-Huxley type dynamics and computational efficiency of the integrate and fire neurons. To produce this kind of behaviour four parameters and two variables are used.<br>
@@ -27,6 +27,10 @@ The choice of values for these parameters leads to different types of spiking, n
 7. **Resonator (RZ)**
 
 <br>
+
+### Generated Graphs<br>
+1. **Regular Spiking** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. **Intrinsically Bursting**
+<img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/regular_spiking.png'/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width='300' height='300' src='/Izhikevich_neuron_model/Graphs/intrinsically_bursting.png'/>
 
 ### Reference:<br>
 [Simple Model of Spiking Neurons](http://www.izhikevich.org/publications/spikes.pdf)
