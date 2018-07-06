@@ -1,5 +1,5 @@
 # Spiking_Neuron
-Project on Spiking Neural Networks<br><br>
+<br>
 
 
 The neural networks based on their computational unit can be distinguished into three generations:
