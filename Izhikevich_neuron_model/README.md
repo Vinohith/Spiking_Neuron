@@ -48,6 +48,9 @@ The choice of values for these parameters leads to different types of spiking, n
 6. **Resonator**
 <img width='500' height='300' src='/Izhikevich_neuron_model/Graphs/resonator.png'/>
 
+7. **Time-varying input**
+<img width='500' height='300' src='/Izhikevich_neuron_model/Graphs/synapse_Izhikevich.png'/>
+
 
 ### Reference:<br>
 [Simple Model of Spiking Neurons](http://www.izhikevich.org/publications/spikes.pdf)
